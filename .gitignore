@@ -1,0 +1,41 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+*.so
+.mypy_cache/
+.pytest_cache/
+*.log
+
+# Tokens / secrets
+.lmsa_tokens.json
+.lmsadwl/
+*.token
+.lmsa_full.json
+.lmsa_pickle.pkl
+.lmsa_session.json
+.lmsa_session.pkl
+.lmsa_session.pkl.meta
+
+# Downloaded ROMs
+download/
+
+# Original installer (too large for git)
+*.exe
+extracted/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+lmsa_downloader.py

@@ -1,0 +1,16 @@
+"""API endpoint definitions."""
+
+API_BASE = "https://lsa.lenovo.com/Interface"
+
+EP_ROM_LIST = API_BASE + "/priv/getRomList.jhtml"
+EP_OAUTH2_CALLBACK = API_BASE + "/user/oauth2/callback.jhtml"
+EP_GET_API_INFO = API_BASE + "/dictionary/getApiInfo.jhtml"
+EP_SF_USER_INFO = API_BASE + "/user/getSFUserInfo.jhtml"
+EP_INIT_TOKEN = API_BASE + "/client/initToken.jhtml"
+EP_MODEL_NAMES = API_BASE + "/rescueDevice/getModelNames.jhtml"
+EP_ROM_MATCH = API_BASE + "/rescueDevice/getRomMatchParams.jhtml"
+EP_NEW_RESOURCE = API_BASE + "/rescueDevice/getNewResource.jhtml"
+EP_NEW_RESOURCE_SN = API_BASE + "/rescueDevice/getNewResourceBySN.jhtml"
+EP_NEW_RESOURCE_IMEI = API_BASE + "/rescueDevice/getNewResourceByImei.jhtml"
+EP_MARKET_SUPPORT = API_BASE + "/rescueDevice/getMarketSupport.jhtml"
+EP_GET_DEVICE_INFO = API_BASE + "/device/getDeviceInfo.jhtml"
